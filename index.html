@@ -8,6 +8,7 @@
     <title>Document</title>
     <!-- Style -->
     <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/reset.css">
     <!-- Style - End -->
     <!-- Bootstrap - Start -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -19,52 +20,118 @@
 </head>
 
 <body>
-    <div class="container py-3 top-bar">
-        <div class="row">
-            <div class="col-4">
-                <div>
-                    social.media
-                </div>
+    <div class="container-fluid py-3 top-bar w-5">
+        <div class="container mx-auto row">
+            <div class="col-4 row">
+                <button class="col-3 social-media-button"></button>
+                <button class="col-3 social-media-button"></button>
+                <button class="col-3 social-media-button"></button>
+                <button class="col-3 social-media-button"></button>
             </div>
-            <div class="col-8">
-                <div>
-                    contacts
+            <div class="col-8 row">
+                <div class="col-4 d-flex align-items-center contact-info">
+                    <img src="./assets/icons/man.png" alt="" srcset="" class="phone-image">
+                    <p>0544 931 97 50</p>
+                </div>
+                <div class="col-4 d-flex align-items-center contact-info">
+                    <img src="./assets/icons/call.png" alt="" srcset="" class="phone-image">
+                    <p>0544 931 97 50</p>
+                </div>
+                <div class="col-4 d-flex align-items-center contact-info">
+                    <img src="./assets/icons/email.png" alt="" srcset="" class="phone-image">
+                    <p>info@anayurtlarmuhendislik.com.tr</p>
                 </div>
             </div>
         </div>
     </div>
     <!-- Landing - Start -->
-    <div class="container py-3">
-        <!-- Navigation - Start -->
-        <div class="row">
-            <div class="col-3">
-                logo
+    <div class="container-fluid landing">
+        <!-- Home Slider - Start -->
+        <div class="col-12">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-with-image carousel-item active">
+                        <!-- Navigation - Start -->
+                        <div class="navigation-bar py-3">
+                            <div class="container mx-auto row d-flex align-items-center justify-content-start">
+                                <div class="col-3 logo text-white d-flex align-items-center">
+                                    <img class="object-fit-cover logo-img" src="./assets/icons/buildings.png">
+                                    <p class="my-auto fs-6 mx-1">ANAYURTLAR<br>MÜHENDİSLİK</p>
+                                </div>
+                                <div class="col-6 menu">
+                                    <ul class="d-flex align-items-center justify-content-evenly my-auto">
+                                        <li><a href="" class="text-decoration-none text-white">Anasayfa</a></li>
+                                        <li><a href="" class="text-decoration-none text-white">Hakkımızda</a></li>
+                                        <li><a href="" class="text-decoration-none text-white">Hizmetlerimiz</a></li>
+                                        <li><a href="" class="text-decoration-none text-white">Blog</a></li>
+                                        <li><a href="" class="text-decoration-none text-white">İletişim</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-3 d-flex justify-content-end">
+                                    <button class="btn btn-primary w-15 px-4">
+                                        <img src="./assets/icons/contact-mail.png">
+                                        İletişim
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Navigation - End-->
+                        <div class="d-flex flex-column align-items-center w-100 h-100 text-white">
+                            <h1 class="d-flex text-center mt-5 carousel-text">
+                                <b>Anayurtlar <br> Yapı ve Mühendislik</b>
+                            </h1>
+                            <p class="mt-3">Tüm çalışmalarımızı profesyonel çerçeveler içinde sunmaktayız.</p>
+                            <button class="btn btn-light h-10 mt-3">İletişim Kur <span><img class="contact-arrow" src="./assets/icons/arrow.png"></span></button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="left-arrow">
+                        <img src="./assets/icons/white-arrow.png">
+                    </span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="right-arrow">
+                        <img src="./assets/icons/white-arrow.png">
+                    </span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="col-6">
-                menus
-            </div>
-            <div class="col-3">
-                contact.button
-            </div>
-            <!-- Home Slider - Start -->
-            <div class="col-12 w-100 h-100 bg-primary">
-                home image
 
-            </div>
-            <!-- Home Slider - End -->
         </div>
-        <!-- Navigation  - End-->
+        <!-- Home Slider - End -->
     </div>
     <!-- Landing - End -->
     <!-- Who We Are - Start -->
-    <div class="container py-3">
-        <div class="row">
+    <div class="container-fluid py-3">
+        <div class="container mx-auto row">
             <div class="col-6">
                 <div class="col-12">
-                    who we are button
+                    <button class="btn btn-light rounded-5 ">BİZ KİMİZ?</button>
                 </div>
-                <div class="col-12">
-                    reasons
+                <div class="col-12 row">
+                    <h3>Bizi Seçmeniz İçin Birkaç Neden</h3>
+                    <p>Her projemizi en ince ayrıntısına kadar inceliyoruz.</p>
+                    <ul>
+                        <li>
+                            <img src="" alt="">
+                            <p><b>Yenilikçi Çalışıyoruz</b></p>
+                            <p></p>
+                        </li>
+                        <li>
+                            <img src="" alt="">
+                            <p><b>Çok Yönlü Plan</b></p>
+                            <p></p>
+                        </li>
+                        <li>
+                            <img src="" alt="">
+                            <p><b>Yılların Deneyimi</b></p>
+                            <p></p>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="col-6">
@@ -74,8 +141,8 @@
     </div>
     <!-- Who We Are - End -->
     <!-- Work Process - Start -->
-    <div class="container py-3">
-        <div class="row">
+    <div class="container-fluid py-3">
+        <div class="container mx-auto row">
             project management
         </div>
         <div class="row">
@@ -87,8 +154,8 @@
     </div>
     <!-- Work Process - End -->
     <!-- Best Solutions For Best Works - Start -->
-    <div class="container py-3">
-        <div class="row">
+    <div class="container-fluid py-3">
+        <div class="container mx-auto row">
             <div class="col-6">
                 building images
             </div>
@@ -101,8 +168,8 @@
     </div>
     <!-- Best Solutions For Best Works - End -->
     <!-- Our Customers and Working Partners - Start -->
-    <div class="container py-3">
-        <div class="row">
+    <div class="container-fluid py-3">
+        <div class="container mx-auto row">
             agree
         </div>
         <div class="row">
@@ -116,8 +183,8 @@
     </div>
     <!-- Our Customers and Working Partners - End -->
     <!-- We analyze our projects and follow meticulously - Start -->
-    <div class="container py-3">
-        <div class="row">
+    <div class="container-fluid py-3">
+        <div class="container mx-auto row">
             <div class="col-6">
                 building images
             </div>
@@ -138,8 +205,8 @@
     </div>
     <!-- We analyze our projects and follow meticulously - End -->
     <!-- Do you need any help for finding best way to give a life for your project - Start -->
-    <div class="container py-3">
-        <div class="row">
+    <div class="container-fluid py-3">
+        <div class="container mx-auto row">
             do you need any help for finding best way to give a life for your project?
         </div>
         <div class="row">
@@ -148,8 +215,8 @@
     </div>
     <!-- Do you need any help for finding best way to give a life for your project - End -->
     <!-- News and our announcements - Start  -->
-    <div class="container py-3">
-        <div class="row">
+    <div class="container-fluid py-3">
+        <div class="container mx-auto row">
             <div class="col-12">
                 blog button
             </div>
@@ -171,7 +238,7 @@
     </div>
     <!-- News and our announcements - End  -->
     <!-- Footer - Start -->
-    <div class="container py-3">
+    <div class="container-fluid py-3">
         <div class="row">
             social media link buttons
         </div>
