@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
     <meta name="viewport">
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- Style -->
@@ -81,7 +81,8 @@
                                 <b>Anayurtlar <br> Yapı ve Mühendislik</b>
                             </h1>
                             <p class="mt-3">Tüm çalışmalarımızı profesyonel çerçeveler içinde sunmaktayız.</p>
-                            <button class="btn btn-light h-10 mt-3">İletişim Kur <span><img class="contact-arrow" src="./assets/icons/arrow.png"></span></button>
+                            <button class="btn btn-light h-10 mt-3">İletişim Kur <span><img class="contact-arrow"
+                                        src="./assets/icons/arrow.png"></span></button>
                         </div>
                     </div>
                 </div>
@@ -106,152 +107,308 @@
     </div>
     <!-- Landing - End -->
     <!-- Who We Are - Start -->
-    <div class="container-fluid py-3">
-        <div class="container mx-auto row">
+    <div class="container-fluid py-3 who-we-are">
+        <div class="container mx-auto row my-5">
             <div class="col-6">
                 <div class="col-12">
-                    <button class="btn btn-light rounded-5 ">BİZ KİMİZ?</button>
+                    <button class="who-we-are-button btn shadow rounded-5 text-uppercase px-3 fw-bolder">Biz
+                        Kimiz?</button>
                 </div>
-                <div class="col-12 row">
-                    <h3>Bizi Seçmeniz İçin Birkaç Neden</h3>
+                <div class="col-12 row my-3">
+                    <h3 class="fw-bold">Bizi Seçmeniz İçin Birkaç Neden</h3>
                     <p>Her projemizi en ince ayrıntısına kadar inceliyoruz.</p>
                     <ul>
-                        <li>
-                            <img src="" alt="">
-                            <p><b>Yenilikçi Çalışıyoruz</b></p>
-                            <p></p>
+                        <li class="d-flex">
+                            <span
+                                class="reason-tick rounded-circle d-flex justify-content-center align-items-center shadow">
+                                <img class="" src="./assets/icons/check.png">
+                            </span>
+                            <div class="reason-text mx-3">
+                                <p class=""><b>Yenilikçi Çalışıyoruz</b></p>
+                                <p class="fw-light">Değişen dünyanın özelliklerini işimize entegre ediyoruz.</p>
+                            </div>
                         </li>
-                        <li>
-                            <img src="" alt="">
-                            <p><b>Çok Yönlü Plan</b></p>
-                            <p></p>
+                        <li class="d-flex">
+                            <span
+                                class="reason-tick rounded-circle d-flex justify-content-center align-items-center shadow">
+                                <img class="" src="./assets/icons/check.png">
+                            </span>
+                            <div class="reason-text mx-3">
+                                <p class=""><b>Çok Yönlü Plan</b></p>
+                                <p class="fw-light">Üretilen her projede hayallere dokunmaya çalışıyoruz.</p>
+                            </div>
                         </li>
-                        <li>
-                            <img src="" alt="">
-                            <p><b>Yılların Deneyimi</b></p>
-                            <p></p>
+                        <li class="d-flex">
+                            <span
+                                class="reason-tick rounded-circle d-flex justify-content-center align-items-center shadow">
+                                <img class="" src="./assets/icons/check.png">
+                            </span>
+                            <div class="reason-text mx-3">
+                                <p class=""><b>Yılların Deneyimi</b></p>
+                                <p class="fw-light">Sektördeki tüm tecrübemizi ürettiğimiz her projeye yansıtıyoruz.</p>
+                            </div>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="col-6">
-                building photos
+            <div class="col-6 position-relative">
+                <div class="reason-building building-1">
+                    <img src="./assets/images/building-2.jpg" alt=""
+                        class="rounded-2 object-fit-cover position-absolute">
+                </div>
+                <div class="reason-building building-2">
+                    <img src="./assets/images/building-1.jpg" alt=""
+                        class="rounded-2 object-fit-cover position-absolute">
+                </div>
             </div>
         </div>
     </div>
     <!-- Who We Are - End -->
     <!-- Work Process - Start -->
-    <div class="container-fluid py-3">
-        <div class="container mx-auto row">
-            project management
+    <div class="container-fluid work-process p-5">
+        <div
+            class="container mx-auto row d-flex flex-column justify-content-center align-items-center work-process-start">
+            <button class="btn rounded-5 shadow-sm text-uppercase btn-light fw-medium px-3">İş Süreci</button>
+            <h2 class="fw-bolder w-50 text-center">Proje yönetimi ve<br>iş süreçleri</h2>
+            <p class="fw-light text-center">Projeler, Şematik tasarım, Tasarım geliştirme, Çalışma Çizimi Önerisi ve
+                İnşaat Aşaması gibi adımlardan oluşur.</p>
         </div>
-        <div class="row">
-            <div class="col-3">pre-work</div>
-            <div class="col-3">design</div>
-            <div class="col-3">project</div>
-            <div class="col-3">management</div>
+        <div class="row px-5 pb-5">
+            <div class="col-3 p-3 h-75">
+                <div
+                    class="work-process-box p-4 d-flex flex-column justify-content-between align-items-start w-100 h-100">
+                    <span class="pe-4 py-2 ps-2 work-process-span">
+                        <img src="./assets/icons/economy.png" alt="">
+                    </span>
+                    <p class="fw-bold mt-3 work-process-header">Ön Çalışma</p>
+                    <p class="fw-light work-process-sub-text">Saha ve bina analizi, Fizibilite çalışması ve İdari
+                        doğrulamalar</p>
+                    <a href=""
+                        class="text-decoration-none text-black work-process-more d-flex justify-content-between align-items-center w-75">
+                        Daha Fazla<span><img src="./assets/icons/arrow.png" alt=""></span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-3 p-3 h-75">
+                <div
+                    class="work-process-box p-4 d-flex flex-column justify-content-between align-items-start w-100 h-100">
+                    <span class="pe-4 py-2 ps-2 work-process-span">
+                        <img src="./assets/icons/illustration.png" alt="">
+                    </span>
+                    <p class="fw-bold mt-3 work-process-header">Tasarım</p>
+                    <p class="fw-light work-process-sub-text">Avan Proje, Yapım sistemi, Yapım bedeli, Kesin Proje,
+                        İdari uygulama</p>
+                    <a href=""
+                        class="text-decoration-none text-black work-process-more d-flex justify-content-between align-items-center w-75">
+                        Daha Fazla<span><img src="./assets/icons/arrow.png" alt=""></span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-3 p-3 h-75">
+                <div
+                    class="work-process-box p-4 d-flex flex-column justify-content-between align-items-start w-100 h-100">
+                    <span class="pe-4 py-2 ps-2 work-process-span">
+                        <img src="./assets/icons/project.png" alt="">
+                    </span>
+                    <p class="fw-bold mt-3 work-process-header">Proje</p>
+                    <p class="fw-light work-process-sub-text">Şantiye yönetimi, İnşaat aşaması doğrulaması ve Proje
+                        yönetimi</p>
+                    <a href=""
+                        class="text-decoration-none text-black work-process-more d-flex justify-content-between align-items-center w-75">
+                        Daha Fazla<span><img src="./assets/icons/arrow.png" alt=""></span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-3 p-3 h-75">
+                <div
+                    class="work-process-box p-4 d-flex flex-column justify-content-between align-items-start w-100 h-100">
+                    <span class="pe-4 py-2 ps-2 work-process-span">
+                        <img src="./assets/icons/strategy.png" alt="">
+                    </span>
+                    <p class="fw-bold mt-3 work-process-header">Yönetim</p>
+                    <p class="fw-light work-process-sub-text">Binalara bina kontrolü, teknik yardım ve binaların bakımı
+                        için tavsiyeler</p>
+                    <a href=""
+                        class="text-decoration-none text-black work-process-more d-flex justify-content-between align-items-center w-75">
+                        Daha Fazla<span><img src="./assets/icons/arrow.png" alt=""></span>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Work Process - End -->
     <!-- Best Solutions For Best Works - Start -->
-    <div class="container-fluid py-3">
+    <div class="container-fluid best-solutions p-5">
         <div class="container mx-auto row">
             <div class="col-6">
                 building images
             </div>
-            <div class="col-6">
-                <div class="row">about us button</div>
-                <div class="row">best solutions for best jobs</div>
-                <div class="row">more button</div>
+            <div class="col-6 d-flex flex-column align-items-start justify-content-between">
+                <button class="btn rounded-5 shadow text-uppercase best-solutions-about-us fw-bold">Hakkımızda</button>
+                <h4 class="fw-bolder text-capitalize">En iyi iş için en iyi çözümler</h4>
+                <p class="fw-light best-solutions-description">Yapılarımızı hayatımız için daha iyi bir yer haline
+                    getirme taahhüdü ile ilerlemekteyiz. Mimari ve tasarımın önemli olduğunun farkındayız.
+                    Çalışmalarımız ile herkesin hayaline dokunabileceğimize inanıyoruz. Amacımız tek yönlü bir çalışma
+                    değil, imzamız bulunan her noktada insanların gülümsemesini düşünerek kaliteli işler üretmekteyiz.
+                </p>
+                <ul class="best-solutions-list row d-flex justify-content-start p-0">
+                    <li class="fw-bold text-capitalize d-flex align-items-center col-6 py-1">
+                        <div class="me-2 outer-circle rounded-circle d-flex justify-content-center align-items-center">
+                            <div class="inner-circle rounded-circle"></div>
+                        </div>
+                        Kurumsal çözümler
+                    </li>
+                    <li class="fw-bold text-capitalize d-flex align-items-center col-6 py-1">
+                        <div class="me-2 outer-circle rounded-circle d-flex justify-content-center align-items-center">
+                            <div class="inner-circle rounded-circle"></div>
+                        </div>
+                        Proje planlama
+                    </li>
+                    <li class="fw-bold text-capitalize d-flex align-items-center col-6 py-1">
+                        <div class="me-2 outer-circle rounded-circle d-flex justify-content-center align-items-center">
+                            <div class="inner-circle rounded-circle"></div>
+                        </div>
+                        Detaylı analiz
+                    </li>
+                    <li class="fw-bold text-capitalize d-flex align-items-center col-6 py-1">
+                        <div class="me-2 outer-circle rounded-circle d-flex justify-content-center align-items-center">
+                            <div class="inner-circle rounded-circle"></div>
+                        </div>
+                        Peyzaj tasarımı
+                    </li>
+                    <li class="fw-bold text-capitalize d-flex align-items-center col-6 py-1">
+                        <div class="me-2 outer-circle rounded-circle d-flex justify-content-center align-items-center">
+                            <div class="inner-circle rounded-circle"></div>
+                        </div>
+                        Profesyonel tasarımlar
+                    </li>
+                </ul>
+                <button class="btn rounded-1 best-solutions-more fw-bolder px-4 d-flex align-items-center">
+                    Daha Fazla
+                    <span>
+                        <img class="ms-1" src="./assets/icons/white-arrow.png" alt="">
+                    </span>
+                </button>
             </div>
         </div>
     </div>
     <!-- Best Solutions For Best Works - End -->
     <!-- Our Customers and Working Partners - Start -->
-    <div class="container-fluid py-3">
+    <div class="container-fluid p-5 our-customers">
         <div class="container mx-auto row">
-            agree
-        </div>
-        <div class="row">
-            our customers and working partners
-        </div>
-        <div class="row">
-            <div class="col-4">creating plan</div>
-            <div class="col-4">meeting process</div>
-            <div class="col-4">making deal</div>
-        </div>
-    </div>
-    <!-- Our Customers and Working Partners - End -->
-    <!-- We analyze our projects and follow meticulously - Start -->
-    <div class="container-fluid py-3">
-        <div class="container mx-auto row">
-            <div class="col-6">
-                building images
-            </div>
-            <div class="col-6">
-                <div class="row">
-                    follow button
+            <div class="col-12 d-flex flex-column justify-content-between align-items-center">
+                <button class="btn shadow text-uppercase rounded-5 px-4">anlaşma</button>
+                <h4 class="fw-bold text-capitalize our-customers-header">müşterilerimiz<span class="text-lowercase"> ve
+                    </span>çalışma ortaklarımız</h4>
+                <p class="fw-light our-customers-description">Birlikte çalışmaya başlayacağımızı müşterilerimiz ve iş
+                    ortaklarımızla izlediğimiz yol.</p>
+                <div class="col-12 row d-flex align-items-center justify-content-between">
+                    <div class="col-2 our-customers-steps d-flex flex-column align-items-center justify-content-between5355D6">
+                        <div class="rounded-circle d-flex justify-content-center align-items-center our-customers-step-circle position-relative">
+                            <img src="./assets/icons/calendar-check.png" alt="">
+                            <div class="outer-circle d-flex justify-content-center align-items-center rounded-circle position-absolute top-0">
+                                <div class="inner-circle rounded-circle d-flex justify-content-center align-items-center">1</div>
+                            </div>
+                        </div>
+                        <p class="fw-bold text-capitalize text-center step-title">plan oluşturmak</p>
+                        <p class="fw-light text-center step-text">Proje için gerekli olan ihtiyaç ve takvim planını oluşturuyoruz.</p>
+                    </div>
+                    <div class="col-2 step-arrow"><img src="./assets/icons/right-drawn-arrow.png" alt="" srcset=""></div>
+                    <div class="col-2 our-customers-steps d-flex flex-column align-items-center justify-content-between5355D6">
+                        <div class="rounded-circle d-flex justify-content-center align-items-center our-customers-step-circle position-relative">
+                            <img src="./assets/icons/chat-2.png" alt="">
+                            <div class="outer-circle d-flex justify-content-center align-items-center rounded-circle position-absolute top-0">
+                                <div class="inner-circle rounded-circle d-flex justify-content-center align-items-center">2</div>
+                            </div>
+                        </div>
+                        <p class="fw-bold text-capitalize text-center step-title">toplantı süreci</p>
+                        <p class="fw-light text-center step-text">Proje için fikir alışverişi yaparak tüm detayları belirliyoruz.</p>
+                    </div>
+                    <div class="col-2 step-arrow"><img src="./assets/icons/right-drawn-arrow.png" alt="" srcset=""></div>
+                    <div class="col-2 our-customers-steps d-flex flex-column align-items-center justify-content-between5355D6">
+                        <div class="rounded-circle d-flex justify-content-center align-items-center our-customers-step-circle position-relative">
+                            <img src="./assets/icons/deal.png" alt="">
+                            <div class="outer-circle d-flex justify-content-center align-items-center rounded-circle position-absolute top-0">
+                                <div class="inner-circle rounded-circle d-flex justify-content-center align-items-center">3</div>
+                            </div>
+                        </div>
+                        <p class="fw-bold text-capitalize text-center step-title">anlaşma</p>
+                        <p class="fw-light text-center step-text">Projenin tüm detayları onaylandıktan sonra anlaşma yapıyoruz.</p>
+                    </div>
                 </div>
-                <div class="row">
-                    we analyze our projects and follow meticulously
+            </div>
+        </div>
+        <!-- Our Customers and Working Partners - End -->
+        <!-- We analyze our projects and follow meticulously - Start -->
+        <div class="container-fluid py-3">
+            <div class="container mx-auto row">
+                <div class="col-6">
+                    building images
                 </div>
-                <div class="row">
-                    <div class="col-12">project analytics</div>
-                    <div class="col-12">project brand</div>
-                    <div class="col-12">project management</div>
+                <div class="col-6">
+                    <div class="row">
+                        follow button
+                    </div>
+                    <div class="row">
+                        we analyze our projects and follow meticulously
+                    </div>
+                    <div class="row">
+                        <div class="col-12">project analytics</div>
+                        <div class="col-12">project brand</div>
+                        <div class="col-12">project management</div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- We analyze our projects and follow meticulously - End -->
-    <!-- Do you need any help for finding best way to give a life for your project - Start -->
-    <div class="container-fluid py-3">
-        <div class="container mx-auto row">
-            do you need any help for finding best way to give a life for your project?
-        </div>
-        <div class="row">
-            start now button
-        </div>
-    </div>
-    <!-- Do you need any help for finding best way to give a life for your project - End -->
-    <!-- News and our announcements - Start  -->
-    <div class="container-fluid py-3">
-        <div class="container mx-auto row">
-            <div class="col-12">
-                blog button
-            </div>
-            <div class="col-12">
-                news and our announcements
+        <!-- We analyze our projects and follow meticulously - End -->
+        <!-- Do you need any help for finding best way to give a life for your project - Start -->
+        <div class="container-fluid py-3">
+            <div class="container mx-auto row">
+                do you need any help for finding best way to give a life for your project?
             </div>
             <div class="row">
-                <div class="col-4">
-                    you are so important to us
+                start now button
+            </div>
+        </div>
+        <!-- Do you need any help for finding best way to give a life for your project - End -->
+        <!-- News and our announcements - Start  -->
+        <div class="container-fluid py-3">
+            <div class="container mx-auto row">
+                <div class="col-12">
+                    blog button
                 </div>
-                <div class="col-4">
-                    about us in social media
+                <div class="col-12">
+                    news and our announcements
                 </div>
-                <div class="col-4">
-                    our web site was published
+                <div class="row">
+                    <div class="col-4">
+                        you are so important to us
+                    </div>
+                    <div class="col-4">
+                        about us in social media
+                    </div>
+                    <div class="col-4">
+                        our web site was published
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- News and our announcements - End  -->
-    <!-- Footer - Start -->
-    <div class="container-fluid py-3">
-        <div class="row">
-            social media link buttons
+        <!-- News and our announcements - End  -->
+        <!-- Footer - Start -->
+        <div class="container-fluid py-3">
+            <div class="row">
+                social media link buttons
+            </div>
+            <div class="row">
+                <div class="col-4">about us</div>
+                <div class="col-4">quick menu</div>
+                <div class="col-4">contact us</div>
+            </div>
+            <div class="row">
+                copyright
+            </div>
         </div>
-        <div class="row">
-            <div class="col-4">about us</div>
-            <div class="col-4">quick menu</div>
-            <div class="col-4">contact us</div>
-        </div>
-        <div class="row">
-            copyright
-        </div>
-    </div>
-    <!-- Footer - End -->
+        <!-- Footer - End -->
 </body>
 
 </html>

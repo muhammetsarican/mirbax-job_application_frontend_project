@@ -50,4 +50,139 @@
 .landing .navigation-bar .logo .logo-img {
   width: 2rem;
   aspect-ratio: 1/1;
+}
+
+.who-we-are .who-we-are-button {
+  color: #7777CA;
+  font-size: 0.6rem;
+}
+.who-we-are .reason-tick {
+  width: 30px;
+  height: 30px;
+}
+.who-we-are .reason-tick img {
+  width: 10px;
+  height: 10px;
+}
+.who-we-are .reason-building img {
+  width: 175px;
+  height: 225px;
+}
+.who-we-are .building-1 img {
+  top: 75px;
+  right: 25px;
+}
+.who-we-are .building-2 img {
+  bottom: 125px;
+}
+
+.work-process {
+  background: #F7F7F7;
+}
+.work-process-start button {
+  color: #131CD4;
+  font-size: 0.6rem;
+  max-width: 100px;
+}
+.work-process-start p {
+  font-size: 0.7rem;
+}
+.work-process-box {
+  background: #fff;
+}
+.work-process-box .work-process-span {
+  background-color: #FFF1F1;
+  width: 75px;
+  height: 50px;
+  border-radius: 2rem 1.25rem 2rem 0.5rem;
+}
+.work-process-box .work-process-span img {
+  width: 32px;
+  aspect-ratio: 1/1;
+}
+.work-process-box .work-process-header {
+  font-size: 0.8rem;
+}
+.work-process-box .work-process-sub-text {
+  font-size: 0.6rem;
+}
+.work-process-box .work-process-more {
+  font-size: 0.6rem;
+}
+.work-process-box .work-process-more span img {
+  width: 15px;
+}
+
+.best-solutions .best-solutions-about-us {
+  color: #5355D6;
+  font-size: 0.6rem;
+}
+.best-solutions .best-solutions-description {
+  font-size: 0.6rem;
+}
+.best-solutions .best-solutions-list li {
+  font-size: 0.6rem;
+}
+.best-solutions .best-solutions-list li .outer-circle {
+  background: #090DB6;
+  width: 8px;
+  height: 8px;
+}
+.best-solutions .best-solutions-list li .outer-circle .inner-circle {
+  background: #fff;
+  width: 6px;
+  height: 6px;
+}
+.best-solutions .best-solutions-more {
+  background: linear-gradient(90deg, #0000FD, #080050);
+  color: #fff;
+  font-size: 0.6rem;
+}
+.best-solutions .best-solutions-more:hover {
+  color: #aaa;
+}
+.best-solutions .best-solutions-more span img {
+  width: 12px;
+  aspect-ratio: 1/1;
+}
+
+.our-customers {
+  background: #F7F7F7;
+}
+.our-customers button {
+  font-size: 0.6rem;
+  color: #5355D6;
+}
+.our-customers .our-customers-description {
+  font-size: 0.6rem;
+}
+.our-customers .our-customers-steps .our-customers-step-circle {
+  background: #fff;
+  width: 100px;
+  height: 100px;
+}
+.our-customers .our-customers-steps .our-customers-step-circle img {
+  width: 32px;
+}
+.our-customers .our-customers-steps .outer-circle {
+  right: -10px;
+  width: 35px;
+  height: 35px;
+  background: linear-gradient(90deg, #0000FD, #080050);
+}
+.our-customers .our-customers-steps .outer-circle .inner-circle {
+  width: 22px;
+  height: 22px;
+  background: #fff;
+  font-size: 0.6rem;
+}
+.our-customers .our-customers-steps .step-title {
+  font-size: 0.7rem;
+}
+.our-customers .our-customers-steps .step-text {
+  font-size: 0.6rem;
+}
+.our-customers .step-arrow img {
+  width: 50px;
+  rotate: 35deg;
 }/*# sourceMappingURL=main.css.map */
