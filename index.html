@@ -20,15 +20,15 @@
 </head>
 
 <body>
-    <div class="container-fluid py-3 top-bar w-5">
+    <div class="container-fluid py-1 top-bar">
         <div class="container mx-auto row">
-            <div class="col-4 row">
+            <div class="col-md-4 col-lg-8 row">
                 <button class="col-3 social-media-button"></button>
                 <button class="col-3 social-media-button"></button>
                 <button class="col-3 social-media-button"></button>
                 <button class="col-3 social-media-button"></button>
             </div>
-            <div class="col-8 row">
+            <div class="col-md-8 col-lg-4 row">
                 <div class="col-4 d-flex align-items-center contact-info">
                     <img src="./assets/icons/man.png" alt="" srcset="" class="phone-image">
                     <p>0544 931 97 50</p>
@@ -47,28 +47,29 @@
     <!-- Landing - Start -->
     <div class="container-fluid landing">
         <!-- Home Slider - Start -->
-        <div class="col-12">
+        <div class="row">
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="carousel-with-image carousel-item active">
                         <!-- Navigation - Start -->
                         <div class="navigation-bar py-3">
                             <div class="container mx-auto row d-flex align-items-center justify-content-start">
-                                <div class="col-3 logo text-white d-flex align-items-center">
+                                <div class="col-lg-4 col-md-3 logo text-white d-flex align-items-center">
                                     <img class="object-fit-cover logo-img" src="./assets/icons/buildings.png">
-                                    <p class="my-auto fs-6 mx-1">ANAYURTLAR<br>MÜHENDİSLİK</p>
+                                    <p class="my-auto fw-bolder mx-1">ANAYURTLAR<br>MÜHENDİSLİK</p>
                                 </div>
-                                <div class="col-6 menu">
-                                    <ul class="d-flex align-items-center justify-content-evenly my-auto">
-                                        <li><a href="" class="text-decoration-none text-white">Anasayfa</a></li>
-                                        <li><a href="" class="text-decoration-none text-white">Hakkımızda</a></li>
-                                        <li><a href="" class="text-decoration-none text-white">Hizmetlerimiz</a></li>
-                                        <li><a href="" class="text-decoration-none text-white">Blog</a></li>
-                                        <li><a href="" class="text-decoration-none text-white">İletişim</a></li>
+                                <div class="col-lg-6 col-md-6 menu">
+                                    <ul class="d-flex align-items-center justify-content-end my-auto fw-bolder">
+                                        <li><a href="" class="text-decoration-none text-white mx-2">Anasayfa</a></li>
+                                        <li><a href="" class="text-decoration-none text-white mx-2">Hakkımızda</a></li>
+                                        <li><a href="" class="text-decoration-none text-white mx-2">Hizmetlerimiz</a>
+                                        </li>
+                                        <li><a href="" class="text-decoration-none text-white mx-2">Blog</a></li>
+                                        <li><a href="" class="text-decoration-none text-white mx-2">İletişim</a></li>
                                     </ul>
                                 </div>
-                                <div class="col-3 d-flex justify-content-end">
-                                    <button class="btn btn-primary w-15 px-4">
+                                <div class="col-lg-2 col-md-3 d-flex justify-content-end contact">
+                                    <button class="btn px-4 fw-bold">
                                         <img src="./assets/icons/contact-mail.png">
                                         İletişim
                                     </button>
@@ -76,13 +77,17 @@
                             </div>
                         </div>
                         <!-- Navigation - End-->
-                        <div class="d-flex flex-column align-items-center w-100 h-100 text-white">
-                            <h1 class="d-flex text-center mt-5 carousel-text">
+                        <div class="d-flex flex-column align-items-center w-100 h-100 text-white carousel-header pt-4">
+                            <h1 class="d-flex text-center mt-5 carousel-text fw-bolder">
                                 <b>Anayurtlar <br> Yapı ve Mühendislik</b>
                             </h1>
                             <p class="mt-3">Tüm çalışmalarımızı profesyonel çerçeveler içinde sunmaktayız.</p>
-                            <button class="btn btn-light h-10 mt-3">İletişim Kur <span><img class="contact-arrow"
-                                        src="./assets/icons/arrow.png"></span></button>
+                            <button class="btn h-10 mt-3 fw-medium d-flex align-items-center rounded-1 px-3">
+                                İletişim Kur
+                                <span>
+                                    <img class="contact-arrow ms-2" src="./assets/icons/arrow.png">
+                                </span>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -108,7 +113,7 @@
     <!-- Landing - End -->
     <!-- Who We Are - Start -->
     <div class="container-fluid py-3 who-we-are">
-        <div class="container mx-auto row my-5">
+        <div class="container mx-auto row my-5 d-flex justify-content-between">
             <div class="col-6">
                 <div class="col-12">
                     <button class="who-we-are-button btn shadow rounded-5 text-uppercase px-3 fw-bolder">Biz
@@ -151,14 +156,16 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-6 position-relative">
-                <div class="reason-building building-1">
-                    <img src="./assets/images/building-2.jpg" alt=""
-                        class="rounded-2 object-fit-cover position-absolute">
-                </div>
-                <div class="reason-building building-2">
-                    <img src="./assets/images/building-1.jpg" alt=""
-                        class="rounded-2 object-fit-cover position-absolute">
+            <div class="col-6 d-flex align-items-center justify-content-center">
+                <div class="building-box position-relative">
+                    <div class="reason-building building-1">
+                        <img src="./assets/images/building-2.jpg" alt=""
+                            class="rounded-2 object-fit-cover position-absolute">
+                    </div>
+                    <div class="reason-building building-2">
+                        <img src="./assets/images/building-1.jpg" alt=""
+                            class="rounded-2 object-fit-cover position-absolute">
+                    </div>
                 </div>
             </div>
         </div>
@@ -239,30 +246,43 @@
     <!-- Work Process - End -->
     <!-- Best Solutions For Best Works - Start -->
     <div class="container-fluid best-solutions p-5">
-        <div class="container mx-auto row">
-            <div class="col-6 position-relative">
-                <div class="reason-building building-1">
-                    <img src="./assets/images/building-7.jpg" alt=""
-                        class="rounded-2 object-fit-cover position-absolute">
-                </div>
-                <div class="reason-building building-2">
-                    <img src="./assets/images/building-6.jpg" alt=""
-                        class="rounded-2 object-fit-cover position-absolute">
-                </div>
-                <span class="graphics-bar bg-light shadow position-absolute top-0 end-50 d-flex justify-content-evenly p-4 fw-bolder text-center">
-                    <div class="graphic">
-                        <div class="outer-circle rounded-circle d-flex justify-content-center align-items-center overflow-hidden">
-                            <div class="inner-circle rounded-circle d-flex justify-content-center align-items-center">4%</div>
-                        </div>
-                        İnşaat
+        <div class="container mx-auto row my-5">
+            <div class="col-6">
+                <div class="position-relative building-box">
+                    <div class="reason-building building-1">
+                        <img src="./assets/images/building-7.jpg" alt=""
+                            class="rounded-2 object-fit-cover position-absolute z-1">
                     </div>
-                    <div class="graphic">
-                        <div class="outer-circle rounded-circle d-flex justify-content-center align-items-center overflow-hidden">
-                            <div class="inner-circle rounded-circle d-flex justify-content-center align-items-center">3%</div>
-                        </div>
-                        Tasarım
+                    <div class="reason-building building-2">
+                        <img src="./assets/images/building-6.jpg" alt=""
+                            class="rounded-2 object-fit-cover position-absolute">
                     </div>
-                </span>
+                    <span
+                        class="graphics-bar shadow position-absolute top-0 end-0 d-flex justify-content-evenly px-4 py-3 rounded-2 fw-bolder text-center z-1">
+                        <div class="graphic me-1 text-center">
+                            <div class="outer-circle position-relative p4 rounded-circle me-1">
+                                <span class="circle-text position-absolute z-2">4%</span>
+                                <div class="slice position-absolute">
+                                    <div class="bar position-absolute rounded-circle">
+
+                                    </div>
+                                </div>
+                            </div>
+                            İnşaat
+                        </div>
+                        <div class="graphic ms-1 text-center">
+                            <div class="outer-circle position-relative p3 rounded-circle">
+                                <span class="circle-text position-absolute z-2">3%</span>
+                                <div class="slice position-absolute">
+                                    <div class="bar position-absolute rounded-circle">
+
+                                    </div>
+                                </div>
+                            </div>
+                            Tasarım
+                        </div>
+                    </span>
+                </div>
             </div>
             <div class="col-6 d-flex flex-column align-items-start justify-content-between">
                 <button
@@ -384,9 +404,21 @@
     <!-- Our Customers and Working Partners - End -->
     <!-- We analyze our projects and follow meticulously - Start -->
     <div class="container-fluid p-5 project-analysis">
-        <div class="container mx-auto row">
+        <div class="container mx-auto row my-5">
             <div class="col-6">
-                building images
+                <div class="position-relative building-box z-1">
+                    <div class="reason-building building-1">
+                        <img src="./assets/images/building-4.jpg" alt=""
+                            class="rounded-2 object-fit-cover position-absolute">
+                    </div>
+                    <div class="reason-building building-2 z-2">
+                        <img src="./assets/images/building-5.jpg" alt=""
+                            class="rounded-2 object-fit-cover position-absolute">
+                    </div>
+                    <span
+                        class="position-absolute text-capitalize shadow py-3 ps-3 rounded-2 fw-bold text-start z-3">özel
+                        tasarımlar</span>
+                </div>
             </div>
             <div class="col-6 project-right-side d-flex flex-column align-items-start justify-content-around">
                 <button class="btn shadow text-uppercase fw-bold rounded-5 px-4">takip</button>
