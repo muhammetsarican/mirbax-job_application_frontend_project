@@ -1,5 +1,5 @@
 body {
-  background: #fff;
+  background: #FFFFFF;
 }
 
 .top-bar {
@@ -43,8 +43,14 @@ body {
 .landing .carousel-with-image .carousel-text {
   font-size: 3rem;
 }
+.landing .carousel-control-prev img {
+  width: 25px;
+}
 .landing .carousel-control-prev .left-arrow {
   rotate: 180deg;
+}
+.landing .carousel-control-next img {
+  width: 25px;
 }
 .landing .navigation-bar {
   background: rgba(2, 2, 4, 0.4);
@@ -60,11 +66,11 @@ body {
   font-size: 0.6rem;
 }
 .landing .navigation-bar .menu li:hover {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #FFFFFF;
 }
 .landing .navigation-bar .contact button {
   background: linear-gradient(90deg, #0014FD, #0F0157);
-  color: #fff;
+  color: #FFFFFF;
   font-size: 0.7rem;
 }
 .landing .navigation-bar .contact button img {
@@ -74,8 +80,8 @@ body {
   font-size: 0.7rem;
 }
 .landing .carousel-header button {
-  background: #fff;
-  color: #000;
+  background: #FFFFFF;
+  color: #000000;
   font-size: 0.6rem;
 }
 .landing .carousel-header button .contact-arrow {
@@ -83,16 +89,23 @@ body {
 }
 
 .who-we-are .who-we-are-button {
-  color: #7777CA;
+  color: #5355D6;
   font-size: 0.6rem;
 }
-.who-we-are .reason-tick {
+.who-we-are .reason-header p {
+  font-size: 0.7rem;
+}
+.who-we-are .reason-header .reason-tick {
   width: 30px;
   height: 30px;
 }
-.who-we-are .reason-tick img {
+.who-we-are .reason-header .reason-tick img {
+  margin: 1rem;
   width: 10px;
   height: 10px;
+}
+.who-we-are .reason-header .reason-title {
+  font-size: 0.8rem;
 }
 .who-we-are .building-box {
   width: 32dvh;
@@ -114,7 +127,7 @@ body {
   background: #F7F7F7;
 }
 .work-process-start button {
-  color: #131CD4;
+  color: #5355D6;
   font-size: 0.6rem;
   max-width: 100px;
 }
@@ -122,7 +135,7 @@ body {
   font-size: 0.7rem;
 }
 .work-process-box {
-  background: #fff;
+  background: #FFFFFF;
 }
 .work-process-box .work-process-span {
   background-color: #FFF1F1;
@@ -162,7 +175,7 @@ body {
   height: 200px;
 }
 .best-solutions .graphics-bar {
-  background: #fff;
+  background: #FFFFFF;
 }
 .best-solutions .graphics-bar .graphic {
   font-size: 0.6rem;
@@ -180,7 +193,7 @@ body {
   left: 0.5em;
   content: " ";
   border-radius: 50%;
-  background-color: #fff;
+  background-color: #FFFFFF;
   width: 5.25em;
   height: 5.25em;
 }
@@ -224,13 +237,13 @@ body {
   height: 8px;
 }
 .best-solutions .best-solutions-list li .outer-circle .inner-circle {
-  background: #fff;
+  background: #FFFFFF;
   width: 6px;
   height: 6px;
 }
 .best-solutions .best-solutions-more {
   background: linear-gradient(90deg, #0000FD, #080050);
-  color: #fff;
+  color: #FFFFFF;
   font-size: 0.6rem;
 }
 .best-solutions .best-solutions-more:hover {
@@ -244,6 +257,9 @@ body {
 .our-customers {
   background: #F7F7F7;
 }
+.our-customers .container {
+  min-height: 22rem;
+}
 .our-customers button {
   font-size: 0.6rem;
   color: #5355D6;
@@ -252,7 +268,7 @@ body {
   font-size: 0.6rem;
 }
 .our-customers .our-customers-steps .our-customers-step-circle {
-  background: #fff;
+  background: #FFFFFF;
   width: 100px;
   height: 100px;
 }
@@ -271,7 +287,7 @@ body {
 .our-customers .our-customers-steps .outer-circle .inner-circle {
   width: 22px;
   height: 22px;
-  background: #fff;
+  background: #FFFFFF;
   font-size: 0.6rem;
 }
 .our-customers .our-customers-steps .step-title {
@@ -292,26 +308,26 @@ body {
 .project-analysis .building-box .reason-building.building-1 img {
   width: 165px;
   height: 180px;
-  top: 20%;
+  top: 0%;
   left: 40%;
 }
 .project-analysis .building-box .reason-building.building-2 img {
-  top: 35%;
+  top: 15%;
   width: 190px;
   height: 250px;
 }
 .project-analysis .building-box span {
   padding: 0 7rem 0 0;
-  background: #fff;
+  background: #FFFFFF;
   font-size: 0.7rem;
-  top: 95%;
+  top: 75%;
   left: 25%;
 }
 .project-analysis .container {
   padding: 0;
 }
 .project-analysis .project-right-side {
-  min-height: 35dvh;
+  min-height: 30dvh;
 }
 .project-analysis .project-right-side button {
   font-size: 0.6rem;
@@ -336,7 +352,7 @@ body {
   background: url("../assets/images/building-3.png");
   background-position: bottom;
   background-size: 135dvh;
-  color: #fff;
+  color: #FFFFFF;
 }
 .do-you-need-help .container {
   min-height: 20dvh;
@@ -394,25 +410,24 @@ body {
 }
 .footer .social-media-links button {
   background: #434345;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: -moz-min-content;
-  height: min-content;
+  width: 25px;
+  height: 25px;
+  padding: 0;
 }
 .footer .social-media-links button img {
   width: 10px;
   height: 10px;
 }
 .footer .footer-body .top p {
-  color: #fff;
+  color: #FFFFFF;
   font-size: 0.8rem;
 }
 .footer .footer-body .bottom p {
-  color: #fff;
+  color: #FFFFFF;
   font-size: 0.65rem;
 }
 .footer .footer-body .bottom p a {
-  color: #fff;
+  color: #FFFFFF;
 }
 .footer .footer-body .bottom p a:hover {
   color: gray;
