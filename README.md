@@ -1,8 +1,7 @@
 
 # Mirbax Job Application Project
 
-I created a design that copied from a pdf for job application. I used Html, Css and Bootstrap.
-
+I created a design for a job application by copying it from a pdf. I used Html, Css and Bootstrap.
 
 ![Screenshot](https://i.imgur.com/dYkJpOP.png)
 ## Tech Stack
@@ -45,7 +44,7 @@ and you succesfully run it!.
 
 ## Screenshots
 
-! [App Screenshots](https://drive.google.com/drive/folders/1IHtH8o0-ZDCY6QHvCebimYtl5EUISfc4?usp=sharing)
+[Screenshots](https://drive.google.com/drive/folders/1IHtH8o0-ZDCY6QHvCebimYtl5EUISfc4?usp=sharing)
 
 
 ## Authors
