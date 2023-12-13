@@ -19,13 +19,13 @@ I created a design for a job application by copying it from a pdf. I used Html, 
 Clone the project
 
 ```bash
-  git clone https://github.com/muhammetsarican/mirbax-job_interview_frontend_project.git
+  git clone https://github.com/muhammetsarican/mirbax-job_application_frontend_project.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd mirbax-job_interview_frontend_project
+  cd mirbax-job_application_frontend_project
 ```
 
 Install dependencies
